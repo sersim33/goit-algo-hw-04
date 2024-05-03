@@ -34,12 +34,11 @@ def merge(left, right):
 
     return merged
 
-# random array
+# Generate a random array
 arr = [random.randint(0, 100) for _ in range(50)]
 
 # Timing merge_sort function using timeit
 time_taken = timeit.timeit(lambda: merge_sort(arr), number=100)
 
-print("Input array:", arr)
-print("Time taken:", time_taken, "seconds")
+print("Time taken:", time_taken*1000, "seconds")
 print(merge_sort(arr))

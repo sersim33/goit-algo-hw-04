@@ -13,6 +13,6 @@ def insertion_sort(lst):
 arr1 = [random.randint(0, 100) for _ in range(50)]
 
 time_taken = timeit.timeit(lambda: insertion_sort(arr1), number=100)
-print("Input array:", arr1)
-print("Time taken:", time_taken, "seconds")
+
+print("Time taken:", time_taken*1000, "seconds")
 print(insertion_sort(arr1))
