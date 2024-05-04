@@ -40,5 +40,5 @@ arr = [random.randint(0, 100) for _ in range(50)]
 # Timing merge_sort function using timeit
 time_taken = timeit.timeit(lambda: merge_sort(arr), number=100)
 
-print("Time taken:", time_taken*1000, "seconds")
+print("Time taken:", time_taken*1000, "seconds*1000")
 print(merge_sort(arr))

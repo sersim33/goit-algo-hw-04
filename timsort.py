@@ -1,7 +1,7 @@
 import timeit
 import random
 
-arr2 = [random.randint(0, 100) for _ in range(50)]
+arr2 = [random.randint(0, 100) for _ in range(100)]
 arr2.sort()  
 
 
